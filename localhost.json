@@ -1,0 +1,184 @@
+{
+  "name": "MaddLogic LLC",
+  "keywords": "",
+  "favicon": "/assets/img/favicon.png",
+  "domain": "maddlogic.com",
+  "logo_text": "MaddLogic LLC. It's only logical.",
+  "logo": "assets/img/maddlogic.png",
+  "primaryColor": "#212529",
+  "secondaryColor": "#212529",
+  "accentColor": "#E37923",
+  "fontColorPrimary": "#E37923",
+  "fontColorSecondary": "#E37923",
+  "title": "MaddLogic LLC",
+  "metaTags":{
+    "description": "mlclickfunnel description",
+    "keywords": "mlleadfunnel, mlclickfunnel, maddlogicfunnel, maddlogiccclickfunnel"
+  },
+  "visitUsUrl": "https://www.maddlogic.com",
+  "rsvpUrl": "https://www.calendly.com/maddlogicllc",
+  "googleTracking": {
+    "automationfortworth.com": "G-798RYJ8H18",
+    "customsoftwarefortworth.com": "G-798RYJ8H18",
+    "localhost": "G-798RYJ8H18"
+  },
+  "sections": [
+    {
+      "name": "Headline",
+      "scroll": false,
+      "class": "parallax",
+      "type": "html",
+      "content": "/assets/headline.html",
+      "style": [
+        {
+          "property": "height",
+          "value": "450px"
+        },
+        {
+          "property": "background",
+          "value": "#FFF"
+        },
+        {
+          "property": "color",
+          "value": "#E37923"
+        },
+        {
+          "property": "align-content",
+          "value": "middle"
+        },
+        {
+          "property": "display",
+          "value": "flex"
+        },
+        {
+          "property": "align-items",
+          "value": "center"
+        },  {
+          "property": "background",
+          "value": "#FFF"
+        }
+      ]
+    },
+    {
+      "name": "Custom Software",
+      "type": "video",
+      "content": "https://www.youtube.com/embed/Vitv-1DtZ5Q",
+      "scroll": true,
+      "class": "parallax",
+      "style": [{
+          "property": "background",
+          "value": "url('/assets/img/artificial-intelligence-bg.webp')"
+        }
+      ]
+    },
+    {
+      "name": "Services",
+      "type": "imagecard",
+      "cardSize": "large",
+      "content": [{
+        "title": "Digital Transformation",
+        "subtitle": "",
+        "description": "MaddLogic will aide you in evaluating and recommending changes to a business’s processes using digital tools and applications to increase revenues, provide faster turn around time, error reduction, and  improve the customer experience",
+        "image": "/assets/img/digitaltransformation.webp",
+        "url": "https://maddlogic.com/digital-transformation",
+        "style": []
+      },
+      {
+        "title": "Third Party Integrations",
+        "subtitle": "",
+        "description": "MaddLogic can help you build the missing links between your data, your software, or your filesystem in order to eliminate the manual steps needed to keep your I.T. systems up to date.",
+        "image": "/assets/img/3rdparty.webp",
+        "url": "https://maddlogic.com/third-party-integrations",
+        "style": []
+      },
+      {
+        "title": "Automation",
+        "subtitle": "",
+        "description": "Over 10 years of experience utilizing Microsoft Development technologies and Azure Cloud Based solutions to construct integrated software solutions, and fully customized applications",
+        "image": "/assets/img/automation.webp",
+        "url": "https://maddlogic.com/automation",
+        "style": []
+      },
+      {
+        "title": "Data Analytics",
+        "subtitle": "",
+        "description": "Using qualitative and quantitative data collections data discovery, MaddLogic utilizes advanced Artificial Intelligence and Machine Learning strategies to identify and analyze behavioral data and patterns, and techniques vary according to organizational requirements",
+        "image": "/assets/img/data.webp",
+        "url": "https://maddlogic.com/data-analytics",
+        "style": []
+      },
+      {
+        "title": "Azure Development",
+        "subtitle": "",
+        "description": "Whether you have a hybrid environment, or want to move your applications out to the cloud, MaddLogic can help you fill your cloud hosting needs.",
+        "image": "/assets/img/azure.webp",
+        "url": "https://maddlogic.com/azure-development",
+        "style": []
+      },
+      {
+        "title": "Data Visualization",
+        "subtitle": "",
+        "description": "By using visual elements like charts, graphs, and maps, data visualization, it can provide an accessible way to see and understand trends and patterns in your business data.",
+        "image": "/assets/img/visualization.webp",
+        "url": "https://maddlogic.com/data-visualization/",
+        "style": []
+      }],
+      "scroll": true,
+      "class": "parallax"
+    },
+    {
+      "name": "Custom Text",
+      "content": "This is a localhost",
+      "type": "text",
+      "style": [
+        {
+          "property": "background",
+          "value": "#f6f6f6"
+        },
+        {
+          "property": "color",
+          "value": "#E37923"
+        },
+        {
+          "property": "text-align",
+          "value": "center"
+        },
+        {
+          "property": "padding-top",
+          "value": "15px"
+        }
+      ]
+    },
+    {
+      "name": "Contact Form",
+      "content": "ContactFormComponent",
+      "type": "component",
+      "scroll": true,
+      "style": [
+        {
+          "property": "background",
+          "value": "#f6f6f6"
+        },
+        {
+          "property": "color",
+          "value": "#E37923"
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "content": "",
+    "type": "html",
+    "style": [
+      {
+        "property": "background",
+        "value": "#343a40"
+      },
+      {
+        "property": "color",
+        "value": "#efefef"
+      }
+    ]
+  },
+  "style": []
+}

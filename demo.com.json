@@ -1,0 +1,128 @@
+{
+  "name": "Your Name",
+  "keywords":"",
+  "domain": "maddlogic.com",
+  "logo_text": "MaddLogic LLC. It's only logical.",
+  "logo": "https://maddlogic.com/wp-content/uploads/2021/08/Your-Logo.png",
+  "primaryColor": "#212529",
+  "secondaryColor": "#212529",
+  "accentColor": "#E37923",
+  "fontColorPrimary":"#FFF",
+  "fontColorSecondary": "#E37923",
+  "title":"Your Title",
+  "sections": [
+    {
+      "name": "Headline",
+      "content": "Your Headline",
+      "type": "headline",
+      "style": [{
+        "property": "background",
+        "value": "#212529"
+      },
+      {
+        "property": "color",
+        "value": "#FFF"
+      }]
+    },
+    {
+      "name": "Image",
+      "content": "https://maddlogic.com/wp-content/uploads/2021/08/Your-Logo.png",
+      "type": "image",
+      "class": "parallax",
+      "scroll": true,
+      "style": [{
+        "property": "background",
+        "value": "url('https://maddlogic.com/wp-content/uploads/2021/08/Untitled-design-1.gif')"
+      },
+      {
+        "property": "color",
+        "value": "#FFF"
+      },
+      {
+        "property":"padding",
+        "value": "200px;"
+      }
+    ]
+    },
+    {
+      "name": "HTML",
+      "scroll": true,
+      "class": "parallax",
+      "type": "html",
+      "content": "<h2 style=\"text-align: center;\"><span>Your Fancy Description Here:</span></h2>      <p style=\"text-align: center;\">Let us <span                style=\"font-weight: bold; font-size: 24px; font-color: #E37923;\">generate leads</span> for your business.</p>",
+      "style": [
+        {
+          "property": "height",
+          "value": "450px"
+        },
+        {
+          "property": "background",
+          "value": "#FFF"
+        },
+        {
+          "property": "color",
+          "value": "#E37923"
+        },
+        {
+          "property": "align-content",
+          "value": "middle"
+        },
+        {
+          "property": "display",
+          "value": "flex"
+        },
+        {
+          "property": "align-items",
+          "value": "center"
+        },  {
+          "property": "background",
+          "value": "#FFF"
+        }
+      ]
+    },
+    {
+      "name": "Video",
+      "type": "video",
+      "content": "https://www.youtube.com/embed/ekxt80zvHPU",
+      "scroll": true,
+      "class":"parallax",
+      "style": [{
+        "property": "background",
+        "value": "url('https://maddlogic.com/wp-content/uploads/2021/08/recording-studio-1869560_1920.jpg')"
+      },
+      {
+        "property": "color",
+        "value": "#FFF"
+      }]
+    },
+    {
+      "name": "Contact Form",
+      "content": "ContactFormComponent",
+      "type": "component",
+      "scroll": true,
+      "style": [
+        {
+          "property": "background",
+          "value": "#FFF"
+        },
+        {
+          "property": "color",
+          "value": "#E37923"
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "content": "",
+    "type": "html",
+    "style": [{
+      "property": "background",
+      "value": "#343a40"
+    },
+      {
+        "property": "color",
+        "value": "#efefef"
+      }]
+  },
+  "style": []
+}
